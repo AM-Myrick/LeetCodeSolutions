@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/defanging-an-ip-address/
+
 package main
 
 func defangIPaddr(address string) string {

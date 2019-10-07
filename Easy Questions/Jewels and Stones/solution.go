@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/jewels-and-stones/
 package main
 
 func numJewelsInStones(J string, S string) int {
