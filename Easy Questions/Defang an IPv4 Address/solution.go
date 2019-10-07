@@ -3,11 +3,14 @@ package main
 func defangIPaddr(address string) string {
 	copy := ""
 	for i := 0; i < len(address); i++ {
-		if string(address[i]) == "." {
+		letter := string(address[i])
+
+		if letter == "." {
 			copy += "[.]"
 			continue
 		}
-		copy += string(address[i])
+
+		copy += letter
 	}
 	return copy
 }
