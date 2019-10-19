@@ -54,3 +54,7 @@ var findTheDifference = function(s, t) {
         }
     }
 };
+
+module.exports = {
+    findTheDifference
+}
