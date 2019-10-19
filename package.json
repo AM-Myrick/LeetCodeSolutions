@@ -1,0 +1,24 @@
+{
+  "name": "LeetCodeSolutions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch",
+    "test:once": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AM-Myrick/LeetCodeSolutions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AM-Myrick/LeetCodeSolutions/issues"
+  },
+  "homepage": "https://github.com/AM-Myrick/LeetCodeSolutions#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
