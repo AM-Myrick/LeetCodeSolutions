@@ -31,3 +31,7 @@ var defangIPaddr = function(address) {
     }
     return copy;
 };
+
+module.exports = {
+    defangIPaddr
+};
