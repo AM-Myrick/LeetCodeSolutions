@@ -1,6 +1,6 @@
 const helpers = require('./solution.js');
 
-test("returns extra letter", () => {
+test("returns fizzbuzz array", () => {
     const input = 15
     const expected = [
         "1",
