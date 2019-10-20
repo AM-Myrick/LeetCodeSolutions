@@ -42,3 +42,7 @@ var fizzBuzz = function(n) {
     }
     return resultArray;
 };
+
+module.exports = {
+    fizzBuzz
+}
