@@ -17,3 +17,19 @@ const createCounter = (iterable) => {
     }
     return counter;
 }
+
+const binarySearch = (iterable) => {
+    let low = 0;
+    let high = n;
+    
+    while (low < high) {
+        const middle = Math.floor((low + high) / 2);
+        // if () { conditional here
+        //     high = middle;
+        // }
+        else {
+            low = middle + 1;
+        }
+    }
+    return low;
+}
