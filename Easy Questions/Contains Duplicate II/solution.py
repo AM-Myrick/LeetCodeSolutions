@@ -24,7 +24,7 @@ class Solution:
         # if not, update the index and continue
         copy: dict = {}
         for idx, num in enumerate(nums):
-            if num in copy and abs(copy[num] - idx) <= k:
+            if num in copy and idx - copy[num] <= k:
                 return True
             copy[num] = idx
         return False

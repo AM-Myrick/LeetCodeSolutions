@@ -21,17 +21,14 @@
  */
 var containsNearbyDuplicate = function(nums, k) {
     // create an object and add all numbers in nums to it by { index: value }
-    // if the number is already in nums, check if the absolute difference
+    // if the number is already in nums, check if the difference
     // between current index and last saved index is <= k
     // if the loop finishes, return false
     const copy = {};
     for (let index in nums) {
         const number = nums[index];
-        if (copy[number]) {
-            const originalIndex = copy[number];
-            if (Math.abs(index - originalIndex) <= k) {
-                return true
-            }
+        if (copy[number] && index - copy[number] <= k) {
+            return true
         }
         copy[number] = index;
     }
