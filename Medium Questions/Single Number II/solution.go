@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/single-number-ii/
+// Package singlenumber description - https://leetcode.com/problems/single-number-ii/
 package singlenumber
 
 func singleNumber(nums []int) int {
@@ -6,9 +6,7 @@ func singleNumber(nums []int) int {
 	// iterate over nums and count how many times
 	// each num appears while adding its count
 	// to copy
-	for i := 0; i < len(nums); i++ {
-		num := nums[i]
-
+	for _, num := range nums {
 		if _, ok := copy[num]; !ok {
 			copy[num] = 1
 		} else {
