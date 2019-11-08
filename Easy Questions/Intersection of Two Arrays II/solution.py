@@ -19,6 +19,6 @@ class Solution:
     
     nums1_counter = Counter(nums1)
     nums2_counter = Counter(nums2)
-    return find_intersects(nums1_counter, nums2_counter) if len(nums1_counter) <=                     len(nums2_counter) else find_intersects(nums2_counter, nums1_counter)
+    return find_intersects(nums1_counter, nums2_counter) if len(nums1_counter) <= len(nums2_counter) else find_intersects(nums2_counter, nums1_counter)
     
     
