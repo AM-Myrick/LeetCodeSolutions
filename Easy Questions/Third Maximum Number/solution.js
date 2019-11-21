@@ -9,6 +9,5 @@ var thirdMax = function(nums) {
         return Math.max(...numsCopy)
     }
     numsCopy.sort((a, b) => a - b);
-    console.log(numsCopy)
     return numsCopy[numsCopy.length - 3]
 };
